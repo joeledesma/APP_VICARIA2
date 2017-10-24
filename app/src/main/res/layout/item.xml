@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageResources"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_weight="0.28"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="true"
+                    android:fitsSystemWindows="false"
+                    android:scaleType="fitCenter"
+                    android:visibility="visible"
+                    app:srcCompat="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/imageName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/imageResources"
+                    android:layout_alignLeft="@id/imageResources"
+                    android:layout_alignRight="@id/imageResources"
+                    android:background="@color/ColorOpacity"
+                    android:backgroundTint="@color/ColorOpacity"
+                    android:gravity="center"
+                    android:text="@string/Vic_Add_Pas"
+                    android:textColor="@android:color/background_light"
+                    android:textColorLink="@android:color/background_dark" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

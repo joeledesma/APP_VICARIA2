@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageResources"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_weight="0.28"
+                android:adjustViewBounds="false"
+                android:cropToPadding="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/imageName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/imageResources"
+                android:layout_alignLeft="@id/imageResources"
+                android:layout_alignRight="@id/imageResources"
+                android:background="@color/ColorOpacity"
+                android:backgroundTint="@color/ColorOpacity"
+                android:gravity="center"
+                android:text="@string/general"
+                android:textColor="@android:color/background_light"
+                android:textColorLink="@android:color/background_dark" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageResources"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:text="Aquí la información extraída de la Base de Datos" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

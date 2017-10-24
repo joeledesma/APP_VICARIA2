@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/infoGeneral"
+        android:checkable="false"
+        android:title="@string/general">
+        <menu>
+            <item
+                android:id="@+id/hisDio"
+                android:title="@string/his_dio"
+                android:visible="true" />
+            <item
+                android:id="@+id/BioObi"
+                android:title="@string/Bio_Obi"
+                android:visible="true" />
+            <item
+                android:id="@+id/AntObi"
+                android:title="@string/Ant_Obi"
+                android:visible="true" />
+            <item
+                android:id="@+id/AntVic"
+                android:title="@string/Ant_vic"
+                android:visible="true" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/vicPst"
+        android:checkable="false"
+        android:title="@string/Past_Vic"
+        app:showAsAction="collapseActionView">
+        <menu>
+            <item
+                android:id="@+id/who_are"
+                android:title="@string/Who_Are" />
+            <item
+                android:id="@+id/FuncOur"
+                android:title="@string/func_our" />
+            <item
+                android:id="@+id/PastVic"
+                android:title="@string/Vic_Past" />
+            <item
+                android:id="@+id/VicAddPas"
+                android:title="@string/Vic_Add_Pas" />
+            <item
+                android:id="@+id/ZoneParArr"
+                android:title="@string/Zone_par_Arr" />
+            <item
+                android:id="@+id/ComEnc"
+                android:title="@string/Com_Enc" />
+            <item
+                android:id="@+id/AscMov"
+                android:title="@string/Asc_Mov" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/pastCom"
+        android:title="@string/pas_com" />
+    <item
+        android:id="@+id/InsMov"
+        android:title="@string/Inst_Mov" />
+    <item
+        android:id="@+id/ZonePar"
+        android:title="@string/Zone_par" />
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

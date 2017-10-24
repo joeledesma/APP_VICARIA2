@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">APP_VICARIA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="general">Informaciones Generales</string>
+    <string name="Past_Vic">Vicaría de Pastoral</string>
+    <string name="pas_com">Comisiones de Pastoral</string>
+    <string name="Inst_Mov">Movimientos e Instituciones Laicales</string>
+    <string name="Zone_par">Parróquias y Zonas Pastorales</string>
+    <string name="his_dio">Historia de la Docesis</string>
+    <string name="Bio_Obi">Biografía del Obispo</string>
+    <string name="Ant_Obi">Obispos Anteriores</string>
+    <string name="Ant_vic">Vicários de Pastoral Anteriores</string>
+    <string name="Who_Are">¿Quiénes Somos?</string>
+    <string name="func_our">Nuestras Funciones</string>
+    <string name="Vic_Past">Vicario de Pastoral</string>
+    <string name="Vic_Add_Pas">Vicario Adjunto de Pastoral</string>
+    <string name="Zone_par_Arr">Zonas Pastorales y sus Arcprestes</string>
+    <string name="Com_Enc">Encargados de Comisiones</string>
+    <string name="Asc_Mov">Acesores de Movimientos</string>
+    <string name="title_activity_login__vicaria">Iniciar Sección</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
